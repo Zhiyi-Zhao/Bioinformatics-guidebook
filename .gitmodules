@@ -1,0 +1,4 @@
+[submodule "submodules/computational-biology"]
+	path = submodules/computational-biology
+	url = https://github.com/Zhiyi-Zhao/Computational-biology
+	branch = main
