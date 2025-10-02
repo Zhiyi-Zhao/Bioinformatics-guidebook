@@ -129,22 +129,35 @@ LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑
 ### Notion
 [什么是Notion及Notion快速入门指南](https://www.bilibili.com/video/BV1YT4y1Q7xx/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
 
+安装 notion[https://www.notion.com/]
+
 我们甚至能够用notion制作一份个人学术网站：[为什么科研工作者需要个人网站？以及，怎样花很少时间做一个？](https://mp.weixin.qq.com/s/snYbVFAP7ERhNvaFDORrXw)
 
 相信大家或多或少有着排版公众号的经验，想象这个工作流程：拖动一些元素进行大概的布置，在文字框内写上相关内容。但是如果现在你用相似的方式就能轻松制作一个美观的个人网站，不需要任何计算机编程基础，还能开源到互联网中，这是不是一件非常酷的事情呢。
 ### 文献管理———Notero
+Notero是一款用于将项目和笔记同步到 Notion 的 Zotero 插件。通过它，我们可以**动态**地管理文档。我们可以使用 Zotero 添加文档和其他功能。添加的文档会自动将一些信息（例如摘要和作者信息）同步到注释页面。在注释页面中，您可以对文档进行笔记，为文档添加不同的类别，总结所使用的方法，并概括文档中的观点。欢迎您以任何您喜欢的方式进行扩展！
+
+Notero的安装：
+- 步骤 1：安装 notion[https://www.notion.com/]
+
+- 步骤 2：安装 notero：[https://github.com/dvanoni/notero?tab=readme-ov-file#installation-and-setup]
+
+- 步骤 3：个性化生成自己的文献管理空间吧！
 
 ## 其他工具
 
 # 学科基础
+
 ## 数学基础
 ### 线性代数
 ### 统计学
+
 ## 计算机基础
 ### R语言
 ### Python
 ### Perl
 ### Linux
+### Vim
 ### Shell脚本编程
 [1](https://www.shellscript.sh/philosophy.html)
 
@@ -177,4 +190,7 @@ DNA
 
 ## 微生物生态
 对这个话题感兴趣的朋友可以转向...
+
+# 其它
+## HMTL语言
 
