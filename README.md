@@ -157,6 +157,7 @@ Notero的安装：
 ### Python
 ### Perl
 ### Linux
+### conda
 ### Vim
 ### Shell脚本编程
 [1](https://www.shellscript.sh/philosophy.html)
@@ -187,6 +188,7 @@ DNA
 ## 深度学习
 ## 软件工程
 ## sbatch
+## 统计学进阶
 
 ## 微生物生态
 对这个话题感兴趣的朋友可以转向...
