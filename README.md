@@ -158,6 +158,8 @@ Notero的安装：
 ## 计算机基础
 ### R语言
 ### Python
+https://wiki.python.org/moin/BeginnersGuide/Programmers
+
 ### Perl
 ### Linux
 ### conda
