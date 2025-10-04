@@ -229,9 +229,27 @@ DNA
 # 生物信息学进阶
 ## 常见文件格式
 - FASTA
+  FASTA 格式是一种基于文本的格式，用于表示核苷酸序列或氨基酸（蛋白质）序列，其中核苷酸或氨基酸使用单字母代码表示。
+  序列以大于号（“>”）开头，后跟序列描述（所有内容均位于一行中）。描述行之后的行是序列表示，每个氨基酸或核酸对应一个字母。
+  示例：
+  \>MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken
+  MADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTID
+  FPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREA
+  DIDGDGQVNYEEFVQMMTAK
 - FASTQ
+  FASTQ 文件每个序列包含四个以行分隔的字段：字段 1 以“@”字符开头，后跟序列标识符和可选的描述（类似于 FASTA 标题行）。字段 2 是原始序列字母。字段 3 以“+”字符开头，后跟相同的序列标识符（以及任何描述）。字段 4 编码字段 2 中序列的质量值，并且必须包含与序列中字母数量相同的符号。包含单个序列的 FASTQ 文件可能如下所示：
+  @SEQ_ID\
+  GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT\
+  +\
+  !''((((+))%%%++)(%%%%).1-+''))**55CCF>>>>>>CCCCCCC65
+  它们在格式上有一些区别：FASTA 以“>”开头，FASTQ 以“@”开头。FASTQ 文件使用“+”连接行，并包含质量值信息。FASTA 文件更灵活，允许序列包含多行，而 FASTQ 格式的序列只能包含一行。FASTQ 文件可以提供更多关于序列的信息，它们包含质量记录。因此，在序列长度相同的情况下，FASTQ 文件的大小也更大。
+  [FASTQ 和 Illumina测序](https://knowledge.illumina.com/software/general/software-general-reference_material-list/000002211)
+  [FASTQ 和 Q-score（第四行信息）](https://en.wikipedia.org/wiki/FASTQ_format)
+  Transfer FASTQ into FASTA or combine FASTA and QUAL into FASTQ -- [GALAXY Platform](https://usegalaxy.org/) : Tools--FASTA/FASTQ
+
 ## BLAST
 ## 计算生物学
+[英文版计算生物学](https://github.com/Zhiyi-Zhao/Computational-biology),中文版正在路上
 ## R语言绘图
 ## 机器学习
 ## 深度学习
