@@ -169,9 +169,9 @@ https://wiki.python.org/moin/BeginnersGuide/Programmers
 ### Perl
 ### Linux
 想要入门Linux，可以查看：\
-一份由中科大编写的[Linux入门教程]([https://www.runoob.com/linux/linux-tutorial.html](https://101.lug.ustc.edu.cn/))\
-[Linux入门教程2](https://biobooks.readthedocs.io/zh-cn/latest/4-linux/index.html)（文档内容不仅是Linux，也是一份很好的生物信息学入门资料）\
-[Terminus](https://www.mprat.org/Terminus/),是一款基于文本的冒险游戏，旨在用游戏化的方式教用户如何使用终端命令，是初学者探索Linux的良好开端
+[Linux入门教程](https://biobooks.readthedocs.io/zh-cn/latest/4-linux/index.html)（文档内容不仅是Linux，也是一份很好的生物信息学入门资料）\
+[Terminus](https://www.mprat.org/Terminus/),是一款基于文本的冒险游戏，旨在用游戏化的方式教用户如何使用终端命令，是初学者探索Linux的良好开端\
+一份由中科大编写的[Linux拓展教程]([https://www.runoob.com/linux/linux-tutorial.html](https://101.lug.ustc.edu.cn/)),供希望对Linux有更深入了解的读者学习。
 ### conda
 ### Vim
 Vim是很多服务器自带的命令行编辑器，当你通过SSH连接远程服务器之后，由于没有图形界面，只能在命令行里进行开发。但是Vim的学习曲线非常陡峭，不过作为生物信息学者，我们只需要掌握最简单的几个指令：
