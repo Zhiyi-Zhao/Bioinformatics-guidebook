@@ -47,20 +47,17 @@
 
 生物信息学常见的格式，比如用于储存核酸或者蛋白质序列的FASTA/FASTQ，用于储存一代测序结果的SEQ和AB1文件，用于储存文字信息的txt文件等。但是这样繁多的也为文档的阅读和修改带来了麻烦，常见的文件处理软件已经没办法满足我们的需求了，下面向大家介绍几款工具
 
-### ⭐VScode
+### ⭐⭐⭐**VScode**⭐⭐⭐
+Visual Studio Code（简称VSCode）是微软开发的一款免费、跨平台的代码编辑器，可以在Windows、macOS和Linux上使用。它既轻量又功能强大，启动速度快，占用资源少，却能提供接近大型IDE的开发体验。VSCode支持丰富的插件生态，几乎所有编程语言（如Python、R、C++、HTML、LaTeX等)都可以通过插件扩展，同时还集成了Git版本控制、调试工具和智能代码补全功能，能够帮助开发者更高效地编写、调试和管理代码。此外，它还支持远程开发，用户可以通过Remote SSH插件连接服务器或集群，在本地环境中直接操作远程文件。VSCode 的界面简洁、可高度定制，主题、字体、快捷键和布局都能自由调整，因而成为目前最受程序员和生信研究者欢迎的开发环境之一。是一个功能强大的**All-in-one**的工具
 (VScode下载链接)[https://code.visualstudio.com/]
-VScode也能用于打开多种类型的文件，是一款轻量级但功能强大的代码编辑器，支持多种编程语言，并内置了Git版本控制。开源的生态使得在一个软件中可以完成很多事情，省去在不同软件中切换的烦恼。
+(VSCode中文帮助文档)[https://vscode.js.cn/docs]
+VScode也能用于打开多种类型的文件，包括常见的生物信息学文件类型，是一款轻量级但功能强大的文字处理工具。
 
-一些比较实用的插件：
+具体插件安装等内容见后续相关内容。先介绍部分插件：
+
 - github theme 一键还原github经典皮肤
 - vscode-icons vscode官方出品的图标库
-- markdown all in one 该插件允许对markdown文件进行编辑，预览等操作
-- remote SSH 远程连接服务器的插件
 - copilot AI辅助编程工具
-
-也可以在vscode中运行R和python
-- R:安装名叫R的插件
-- python:在vscode中交互式运行python代码需要安装三个插件，即python,pylance和jupyter
 
 ### Notepad
 [Notepad下载链接](https://notepad-plus-plus.org/downloads/)
@@ -70,6 +67,9 @@ Notepad++ 是一种轻量级的免费的源代码编辑器和记事本替代品�
 在下载好Notepad后建议打开**显示所有字符**，CRLF是换行符，向左的箭头是Tab键。
 
 ## Linux
+
+### VScode
+VS Code包含一个功能齐全的[集成终端](https://vscode.js.cn/docs/terminal/basics)，它从工作区的根目录启动。它与编辑器集成，支持链接和错误检测等功能。集成终端可以像独立的终端一样运行 mkdir 和 git 等命令。
 
 ### 虚拟机/云计算平台（针对Windows电脑）
 许多生物信息学的软件（比如Bowtie2,qiime2,vsearch等）都主要在Linux上发布和维护。在执行大型计算任务的时候，计算平台也是Linux，如果不会Linux没有办法完成任务。但是大学或者研究机构的计算平台往往不随意开放，除非有必须使用计算资源的情况。这个时候有两种方法能够帮助我们使用Linux。
