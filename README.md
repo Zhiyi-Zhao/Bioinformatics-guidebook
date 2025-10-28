@@ -49,8 +49,8 @@
 
 ### ⭐⭐⭐**VScode**⭐⭐⭐
 Visual Studio Code（简称VSCode）是微软开发的一款免费、跨平台的代码编辑器，可以在Windows、macOS和Linux上使用。它既轻量又功能强大，启动速度快，占用资源少，却能提供接近大型IDE的开发体验。VSCode支持丰富的插件生态，几乎所有编程语言（如Python、R、C++、HTML、LaTeX等)都可以通过插件扩展，同时还集成了Git版本控制、调试工具和智能代码补全功能，能够帮助开发者更高效地编写、调试和管理代码。此外，它还支持远程开发，用户可以通过Remote SSH插件连接服务器或集群，在本地环境中直接操作远程文件。VSCode 的界面简洁、可高度定制，主题、字体、快捷键和布局都能自由调整，因而成为目前最受程序员和生信研究者欢迎的开发环境之一。是一个功能强大的**All-in-one**的工具
-(VScode下载链接)[https://code.visualstudio.com/]
-(VSCode中文帮助文档)[https://vscode.js.cn/docs]
+[VScode下载链接](https://code.visualstudio.com/)
+[VSCode中文帮助文档](https://vscode.js.cn/docs)
 VScode也能用于打开多种类型的文件，包括常见的生物信息学文件类型，是一款轻量级但功能强大的文字处理工具。
 
 具体插件安装等内容见后续相关内容。先介绍部分插件：
@@ -74,7 +74,7 @@ Notepad++ 是一种轻量级的免费的源代码编辑器和记事本替代品�
 - VS Code\
   包含一个功能齐全的[集成终端](https://vscode.js.cn/docs/terminal/basics)，它从工作区的根目录启动。它与编辑器集成，支持链接和错误检测等功能。集成终端可以像独立的终端一样运行mkdir和git等命令。建议初学者设立单独的文件夹进行练习，以免在不熟悉的情况下对文件进行误操作。
 - 安装虚拟机\
-(VM Virtualbox安装教程)[https://blog.csdn.net/logic1001/article/details/147259511]
+[VM Virtualbox安装教程](https://blog.csdn.net/logic1001/article/details/147259511)
 安装好虚拟机后可以在虚拟机中随便安装/删除软件，即使虚拟机崩溃也不会影响主系统，出问题了可以直接重置虚拟环境。
   
 - 租用云计算服务平台
@@ -83,9 +83,9 @@ Notepad++ 是一种轻量级的免费的源代码编辑器和记事本替代品�
 ### SSH客户端
 SSH（Secure Shell）是一种安全的网络通信协议，可以理解为一条加密的“秘密通道”，让用户能够从自己的电脑远程登录到另一台服务器或计算机上进行操作。它的主要作用是实现远程控制、命令执行和文件传输，同时通过加密保证数据和密码的安全性。在生信分析和科研计算中，SSH是连接服务器的基础工具。\
 我们可以通过以下方式进行连接：
-- (vscode)[https://vscode.js.cn/docs/remote/ssh]链接服务器: 安装remote-ssh插件
-- (Xterminal)[https://www.xterminal.cn/]: 这个工具不仅有强大的SSH连接功能，还有多个管理功能，可以高度个性化定制布局、主题。灵活的连接界面布局，让你根据自己的喜好随意拖拽和布局各个子窗口，满足你个性化的工作需求。界面美观，也可以进行灵活的上传与下载
-- (xshell + xftp)[https://zhuanlan.zhihu.com/p/659224032]: 可以灵活的进行本地文件和服务器文件的传输
+- [vscode](https://vscode.js.cn/docs/remote/ssh)链接服务器: 安装remote-ssh插件
+- [Xterminal](https://www.xterminal.cn/): 这个工具不仅有强大的SSH连接功能，还有多个管理功能，可以高度个性化定制布局、主题。灵活的连接界面布局，让你根据自己的喜好随意拖拽和布局各个子窗口，满足你个性化的工作需求。界面美观，也可以进行灵活的上传与下载
+- [xshell + xftp](https://zhuanlan.zhihu.com/p/659224032): 可以灵活的进行本地文件和服务器文件的传输
 
 ## 排版
 ### Markdown
@@ -168,6 +168,9 @@ https://wiki.python.org/moin/BeginnersGuide/Programmers
 
 ### Perl
 ### Linux
+想要入门Linux，可以查看：\
+一份由中科大编写的[Linux入门教程]([https://www.runoob.com/linux/linux-tutorial.html](https://101.lug.ustc.edu.cn/))\
+[Linux入门教程2](https://biobooks.readthedocs.io/zh-cn/latest/4-linux/index.html)（文档内容不仅是Linux，也是一份很好的生物信息学入门资料）\
 [Terminus](https://www.mprat.org/Terminus/),是一款基于文本的冒险游戏，旨在用游戏化的方式教用户如何使用终端命令，是初学者探索Linux的良好开端
 ### conda
 ### Vim
