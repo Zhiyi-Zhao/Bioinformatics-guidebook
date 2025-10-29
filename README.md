@@ -26,7 +26,6 @@
 ## 如果你也想加入到贡献者的行列
 一个人的力量终究是有限的，难免有不够完善之处。加之本人是做微生物生态研究出身的，很多内容服务于多组学分析。如果有大佬想在其他领域分享自己的自学经历与资源，可以直接在项目中发起Pull Request，也欢迎和我邮件联系（zhiyi1.zhao@wur.nl）
 
-
 # Getting start with
 想要开始进行生物信息学的学习？但是你了解这个学习旅程中最重要的朋友————计算机么？
 
@@ -135,7 +134,7 @@ LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑
 ### Notion
 [什么是Notion及Notion快速入门指南](https://www.bilibili.com/video/BV1YT4y1Q7xx/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
 
-安装 notion[https://www.notion.com/]
+安装[notion](https://www.notion.com/)
 
 我们甚至能够用notion制作一份个人学术网站：[为什么科研工作者需要个人网站？以及，怎样花很少时间做一个？](https://mp.weixin.qq.com/s/snYbVFAP7ERhNvaFDORrXw)
 
@@ -144,9 +143,9 @@ LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑
 Notero是一款用于将项目和笔记同步到 Notion 的 Zotero 插件。通过它，我们可以**动态**地管理文档。我们可以使用 Zotero 添加文档和其他功能。添加的文档会自动将一些信息（例如摘要和作者信息）同步到注释页面。在注释页面中，您可以对文档进行笔记，为文档添加不同的类别，总结所使用的方法，并概括文档中的观点。欢迎使用以任何喜欢的方式进行扩展！
 
 Notero的安装：
-- 步骤 1：安装 notion[https://www.notion.com/]
+- 步骤 1：安装[notion](https://www.notion.com/)
 
-- 步骤 2：安装 notero：[https://github.com/dvanoni/notero?tab=readme-ov-file#installation-and-setup]
+- 步骤 2：安装[notero](https://github.com/dvanoni/notero?tab=readme-ov-file#installation-and-setup)
 
 - 步骤 3：个性化生成自己的文献管理空间吧！
 
@@ -168,21 +167,53 @@ https://wiki.python.org/moin/BeginnersGuide/Programmers
 
 ### Perl
 ### Linux
+作为一名生物信息学研究者，你并不需要像系统管理员那样精通Linux的底层原理，但你确实需要**熟练掌握命令行操作**，能够独立完成生信分析流程中的各个关键步骤。下面是对需要掌握内容的简单总结，可供读者进行能力自查：
+1. 文件与目录操作
+   * `ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `find`
+   * 会区分绝对路径与相对路径
+   * 能快速在复杂目录中找到文件
+2. 文件内容查看与处理
+   * `cat`, `less`, `head`, `tail`, `grep`, `cut`, `awk`, `sort`, `uniq`, `wc`
+   * 能从 FASTA、FASTQ、GFF、TSV 文件中提取和统计内容
+3. 压缩与打包
+   * `tar`, `gzip`, `gunzip`, `zip`, `unzip`
+4. 权限与环境管理
+   * `chmod`, `chown`, `export`, `.bashrc`, `PATH`
+   * 知道如何配置软件路径、环境变量
+5. 软件安装与包管理
+   * 熟悉 `conda`, `apt`, `pip`, `mamba`
+   * 能创建独立环境并在其中安装工具（如 fastp、vsearch、kraken2 等）
+6. 任务管理与监控
+   * `top`, `htop`, `ps`, `kill`, `df`, `du`
+   * 会查看内存、CPU占用和任务状态
+7. 远程连接与文件传输
+   * `ssh`, `scp`, `rsync`, `screen`, `tmux`
+   * 能连接远程服务器并在断开连接后继续运行程序，能实现文件的上传与下载
+8. 脚本编写与自动化处理
+   * 能编写简单的 `bash`、`awk`，或在Linux环境中使用`perl` 或 `python` 脚本批量处理数据
+   * 理解循环 (`for`, `while`)、变量、管道符 (`|`) 和重定向 (`>`, `>>`)
+9. 日志与错误排查
+   * 能看懂生信工具输出信息，定位错误来源（输入格式、路径、依赖包等）
+   * 知道如何导出、分享 `conda` 环境或镜像
+
 想要入门Linux，可以查看：\
 [Linux入门教程](https://biobooks.readthedocs.io/zh-cn/latest/4-linux/index.html)（文档内容不仅是Linux，也是一份很好的生物信息学入门资料）\
 [Terminus](https://www.mprat.org/Terminus/),是一款基于文本的冒险游戏，旨在用游戏化的方式教用户如何使用终端命令，是初学者探索Linux的良好开端\
 一份由中科大编写的[Linux拓展教程]([https://www.runoob.com/linux/linux-tutorial.html](https://101.lug.ustc.edu.cn/)),供希望对Linux有更深入了解的读者学习。
 ### conda
 ### Vim
-Vim是很多服务器自带的命令行编辑器，当你通过SSH连接远程服务器之后，由于没有图形界面，只能在命令行里进行开发。但是Vim的学习曲线非常陡峭，不过作为生物信息学者，我们只需要掌握最简单的几个指令：
+Vim是很多服务器自带的命令行编辑器，很多时候我们在服务器上工作，没有图形界面、也不能用鼠标打开文件，但有对代码进行简单改动的需求，这时Vim就是很方便的命令行文本编辑器。省去了我们在频繁在本地和服务器传送文件的麻烦。\
+但是Vim的学习曲线非常陡峭，不过作为生物信息学者，我们只需要掌握最简单的几个指令：
 
-在终端上完成以下练习，并恭喜你打开Vim的大门：
+你可以在终端上完成下面这个简单的练习，并恭喜你打开Vim的大门：
 
-- ·vim HelloWorld.txt·
+- vim HelloWorld.txt·
 - 键入 ·i·
 - 编辑 输入任意信息，如Hello World
 - 键入 [ESC]
 - 键入:wq 保存退出
+
+这时候再用ls查看目前目录下的文件，就多出了一个HelloWorld.txt
 
 下面是稍详细的讲解：
 
@@ -193,24 +224,14 @@ Vim是很多服务器自带的命令行编辑器，当你通过SSH连接远程�
 可视模式 (Visual Mode)
 命令模式 (Command Mode)
 ①. 正常模式 (Normal Mode)
-正常模式主要用来浏览和修改文本内容的
-
-一般的，打开 Vim 都是正常模式。在任何模式下，只要按下 Esc 键就可以返回正常模式。
-
+正常模式主要用来浏览和修改文本内容的。一般的，打开 Vim 都是正常模式。在任何模式下，只要按下 Esc 键就可以返回正常模式。
 ②. 插入模式 (Insert Mode)
-插入模式则用来向文本中添加内容的，我自己常用的是i和o
-
-i 在光标所在字符前开始输入文字并进入插入模式
-
-o (字母 o) 在光标所在行的下面单独开一新行来输入文字并进入插入模式
+插入模式则用来向文本中添加内容的，我自己常用的是i和o。i 在光标所在字符前开始输入文字并进入插入模式；o (字母 o) 在光标所在行的下面单独开一新行来输入文字并进入插入模式。
 
 ③. 可视模式 (Visual Mode)
-可视模式相当于高亮选取文本后的普通模式。
-
-可视模式具有子模式，以行为单位进行选取的可视行模式，使用 “V” 键进入（也就是 Shift+v）；和以块为单位进行选取的可视块模式，使用 “Ctrl+v” 键进入。
-
+可视模式相当于高亮选取文本后的普通模式。可视模式具有子模式，以行为单位进行选取的可视行模式，使用 “V” 键进入（也就是 Shift+v）；和以块为单位进行选取的可视块模式，使用 “Ctrl+v” 键进入。
 ④. 命令模式 (Command Mode)
-命令模式则多用于操作文本文件（而不是操作文本文件的内容），例如保存文件；或者用来改变编辑器本身的状态，例如设定多栏窗口、标签或者退出编辑器
+命令模式则多用于操作文本文件（而不是操作文本文件的内容），例如保存文件；或者用来改变编辑器本身的状态，例如设定多栏窗口、标签或者退出编辑器。
 
 如果你想很炫酷的像电影里的黑客一样，双手不离键盘。那你可以深入学习Vim，不可否认Vim有着非常多的优点：方便的文件切换，宏操作可以批量化处理重复操作，异常丰富的插件生态etc.
 
