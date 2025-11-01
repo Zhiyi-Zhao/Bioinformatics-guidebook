@@ -133,10 +133,12 @@ LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑
 ## 信息工作流
 ### Notion
 [什么是Notion及Notion快速入门指南](https://www.bilibili.com/video/BV1YT4y1Q7xx/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
+[Notion官方帮助文档](https://www.notion.com/zh-cn/help)
 
 安装[notion](https://www.notion.com/)
 
 我们甚至能够用notion制作一份个人学术网站：[为什么科研工作者需要个人网站？以及，怎样花很少时间做一个？](https://mp.weixin.qq.com/s/snYbVFAP7ERhNvaFDORrXw)
+
 
 相信大家或多或少有着排版公众号的经验，想象这个工作流程：拖动一些元素进行大概的布置，在文字框内写上相关内容。但是如果现在你用相似的方式就能轻松制作一个美观的个人网站，不需要任何计算机编程基础，还能开源到互联网中，这是不是一件非常酷的事情呢。
 ### 文献管理———Notero
@@ -254,12 +256,10 @@ DNA
 ### 测序技术
 #### 一代测序
 #### 二代测序
-生物信息学研究者需要系统地了解二代测序（NGS）的原理，只有理解数据是如何产生的，才能正确地处理和解释结果。了解测序原理可以帮助我们区分真实信号与技术噪音，理解为什么需要进行质量控制（如去除低质量碱基和接头序列），并根据不同的测序策略（如单端、双端、不同片段长度）设计合适的分析流程。此外，掌握测序原理还能帮助我们判断数据质量、发现异常、更好的设计实验等。
-
-
-
+生物信息学研究者需要系统地了解二代测序（NGS）的原理，只有理解数据是如何产生的，才能正确地处理和解释结果。了解测序原理可以帮助我们区分真实信号与技术噪音，理解为什么需要进行质量控制（如去除低质量碱基和接头序列），并根据不同的测序策略（如单端、双端、不同片段长度）设计合适的分析流程。此外，掌握测序原理还能帮助我们判断数据质量、发现异常、更好的设计实验等。\
 关于Illumina测序原理的[动画](https://www.youtube.com/watch?v=fCd6B5HRaZ8&t=49s)，建议反复观看，直到理解每一个细节
-
+[Next-Generation Sequencing(NGS)](https://www.thermofisher.com/nl/en/home/life-science/sequencing/sequencing-learning-center/next-generation-sequencing-information/ngs-basics/what-is-next-generation-sequencing.html)简介
+更全面的二代测序技术[笔记](https://mercury-02.github.io/2024/02/21/%E6%B7%B1%E5%BA%A6%E6%B5%8B%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%AC%94%E8%AE%B0/#%E4%BA%8C%E3%80%81SoLiD%E6%B5%8B%E5%BA%8F)，包含了SoLiD测序技术和Roche454测序技术
 
 #### 蛋白质测序
 #### 蛋白质结构
