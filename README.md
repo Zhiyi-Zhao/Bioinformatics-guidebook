@@ -255,6 +255,7 @@ RNA
 DNA
 ### 测序技术
 #### 一代测序
+
 #### 二代测序
 生物信息学研究者需要系统地了解二代测序（NGS）的原理，只有理解数据是如何产生的，才能正确地处理和解释结果。了解测序原理可以帮助我们区分真实信号与技术噪音，理解为什么需要进行质量控制（如去除低质量碱基和接头序列），并根据不同的测序策略（如单端、双端、不同片段长度）设计合适的分析流程。此外，掌握测序原理还能帮助我们判断数据质量、发现异常、更好的设计实验等。\
 关于Illumina测序原理的[动画](https://www.youtube.com/watch?v=fCd6B5HRaZ8&t=49s)，建议反复观看，直到理解每一个细节
@@ -292,6 +293,36 @@ DNA
   Transfer FASTQ into FASTA or combine FASTA and QUAL into FASTQ -- [GALAXY Platform](https://usegalaxy.org/) : Tools--FASTA/FASTQ
 
 ## BLAST
+BLAST（Basic Local Alignment Search Tool，基本局部比对搜索工具）是生物信息学中广泛使用的一种序列比对工具。它通过比对生物序列，帮助研究者发现序列之间的相似性，从而推断其功能和进化关系。\
+一个关于为什么需要BLAST以及基本的BLAST算法思想的[视频](https://www.youtube.com/watch?v=NwiETShpIDo)
+
+### Blast的基本原理
+1. 种子匹配
+BLAST首先将查询序列分割成多个短片段，称为种子（seed）。种子匹配是BLAST比对的第一步，它通过比较查询序列的种子与数据库序列中的种子来识别潜在的相似区域。
+
+2. 扩展
+一旦种子匹配成功(序列匹配得分高于某个阈值)，BLAST将利用动态规划算法对匹配区域进行扩展。这个过程会计算每个可能匹配区域的得分，并进行扩展。\
+
+
+4. 评估
+在扩展过程中，BLAST会使用E-value（期望值）来评估匹配的显著性。E-value越小，表示匹配越有可能是一个真实的相似性，而非随机事件。
+
+Blast的分类
+1. BLASTN
+用于核酸序列比对，常用于基因序列或全基因组序列比对。
+
+2. BLASTP
+用于蛋白质序列比对，适用于蛋白质家族和结构域研究。
+
+3. BLASTX
+用于核苷酸序列与蛋白质序列的比对，将核酸序列翻译成蛋白质序列后进行比对。
+
+
+
+As others have said BLAST is really outdated. There was a very similar tool to blast but faster and quite popular (usearch) but it is closed source. Vsearch is similar to usearch but open source. there are tons more since then: blat, bowtie, diamond. Generally they are split between kmer based approaches and burrow-wheeler based (BWA).
+
+
+
 ## 计算生物学
 [英文版计算生物学](https://github.com/Zhiyi-Zhao/Computational-biology),中文版正在路上
 ## R语言绘图
