@@ -351,15 +351,47 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 - 参数估计
 
 ### 统计学的流派——我们在学什么
+[统计学的三大流派](https://zhuanlan.zhihu.com/p/59626066)\
+而本部分主要讨论频率学派——频率学派。频率论推理是一种基于频率论概率的统计推断，它将“概率”与“频率”等同，并通过强调数据中发现的频率或比例来从样本数据中得出结论。频率论推论是频率论统计学的基础，其中建立了完善的统计假设检验和置信区间方法。\
+用一个大家都熟悉的例子来说明什么是频率学派--以抛硬币为例
+
+假设我们想知道一枚硬币正面朝上的概率 𝑝
+
+频率学派怎么想？他们会说：“我不知道𝑝是多少，但它是一个固定的真实值，只是我不知道而已。”于是他们通过实验来估计它：抛硬币100次，出现56次正面，那么估计值p=56/100=0.56 
+
+他们会认为：“**真正的𝑝是一个固定的数，我们的任务是用样本来推断它**。”
+
+🔍 频率学派的推理方式
+
+他们不直接谈“参数的概率”，因为参数是固定的（不是随机的）。举个例子：他们不会说：“𝑝有95%的概率在0.45到0.67之间。”他们会说：“如果我们重复做无数次这样的实验，有95%的置信区间会包含真正的𝑝。”也就是说，“置信区间的概率”是从实验重复的频率角度说的，不是说“参数自己会动”。
+
+再举个假设检验的例子:零假设𝐻0:p=0.5（硬币是公平的）。观测到100次中正面56次, 频率学派的做法：假设硬币真的公平；计算在p=0.5的前提下，出现56次或更多正面的概率；如果这个概率（p-value）很小（比如 <0.05），就认为结果“太不寻常”，拒绝 𝐻0。
+
+也就是我们常看到的：提出原假设（null hypothesis），备择假设（Alternative Hypothesis），计算检验统计量，并将其与理论分布（如正态分布或t分布）中的临界值进行比较。计算出P值，判断是否可以拒绝原假设。如果P值小于预设的显著性水平（通常为 0.05），则拒绝原假设。反之，则不能拒绝。
 
 ### 标准正态分布与中心极限定理
 
-油管网红3blue1brown关于统计学的系列视频（b站汉化版）：[什么是中心极限定理视频](https://www.bilibili.com/video/BV1gh4y1W7ag/?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)[为什么中心极限是正态分布](https://www.bilibili.com/video/BV1EP411p7bV/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)[为什么正态分布的表达式里有个$\pi$](https://www.bilibili.com/video/BV1wu411W7uU?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
-
-
+油管网红3blue1brown关于统计学的系列视频（b站汉化版）：
+- [什么是中心极限定理视频](https://www.bilibili.com/video/BV1gh4y1W7ag/?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
+- [为什么中心极限是正态分布](https://www.bilibili.com/video/BV1EP411p7bV/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
+- [为什么正态分布的表达式里有个pi](https://www.bilibili.com/video/BV1wu411W7uU?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
 
 
 ### 常见统计量
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 微生物生态
 对这个话题感兴趣的朋友可以转向...
