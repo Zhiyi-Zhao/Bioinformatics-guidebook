@@ -340,7 +340,26 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 ## 软件工程
 ## sbatch
 ## 统计学进阶
-[Link]()
+**整理思路来自于Wageningen University&Research Advanced Statistics课程**
+### 前置知识
+- 有关统计学的一般概念，例如数据收集、变量类型、什么是实验单位、响应变量等
+- 常见统计量的计算：均值、方差、协方差等
+- 单个比例的二项式分布和检验等常见分布的期望及方差计算
+- 相关性和简单线性回归
+- 大数定律和中心极限定理
+- 样本及抽样分布
+- 参数估计
+
+### 统计学的流派——我们在学什么
+
+### 标准正态分布与中心极限定理
+
+油管网红3blue1brown关于统计学的系列视频（b站汉化版）：[什么是中心极限定理视频](https://www.bilibili.com/video/BV1gh4y1W7ag/?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)[为什么中心极限是正态分布](https://www.bilibili.com/video/BV1EP411p7bV/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)[为什么正态分布的表达式里有个$\pi$](https://www.bilibili.com/video/BV1wu411W7uU?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-trbxs.1762195889983.831&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
+
+
+
+
+### 常见统计量
 
 ## 微生物生态
 对这个话题感兴趣的朋友可以转向...
