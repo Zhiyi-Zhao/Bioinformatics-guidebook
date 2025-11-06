@@ -47,8 +47,8 @@
 生物信息学常见的格式，比如用于储存核酸或者蛋白质序列的FASTA/FASTQ，用于储存一代测序结果的SEQ和AB1文件，用于储存文字信息的txt文件等。但是这样繁多的也为文档的阅读和修改带来了麻烦，常见的文件处理软件已经没办法满足我们的需求了，下面向大家介绍几款工具
 
 ### ⭐⭐⭐**VScode**⭐⭐⭐
-Visual Studio Code（简称VSCode）是微软开发的一款免费、跨平台的代码编辑器，可以在Windows、macOS和Linux上使用。它既轻量又功能强大，启动速度快，占用资源少，却能提供接近大型IDE的开发体验。VSCode支持丰富的插件生态，几乎所有编程语言（如Python、R、C++、HTML、LaTeX等)都可以通过插件扩展，同时还集成了Git版本控制、调试工具和智能代码补全功能，能够帮助开发者更高效地编写、调试和管理代码。此外，它还支持远程开发，用户可以通过Remote SSH插件连接服务器或集群，在本地环境中直接操作远程文件。VSCode 的界面简洁、可高度定制，主题、字体、快捷键和布局都能自由调整，因而成为目前最受程序员和生信研究者欢迎的开发环境之一。是一个功能强大的**All-in-one**的工具
-[VScode下载链接](https://code.visualstudio.com/)
+Visual Studio Code（简称VSCode）是微软开发的一款免费、跨平台的代码编辑器，可以在Windows、macOS和Linux上使用。它既轻量又功能强大，启动速度快，占用资源少，却能提供接近大型IDE的开发体验。VSCode支持丰富的插件生态，几乎所有编程语言（如Python、R、C++、HTML、LaTeX等)都可以通过插件扩展，同时还集成了Git版本控制、调试工具和智能代码补全功能，能够帮助开发者更高效地编写、调试和管理代码。此外，它还支持远程开发，用户可以通过Remote SSH插件连接服务器或集群，在本地环境中直接操作远程文件。VSCode 的界面简洁、可高度定制，主题、字体、快捷键和布局都能自由调整，因而成为目前最受程序员和生信研究者欢迎的开发环境之一。是一个功能强大的**All-in-one**的工具\
+[VScode下载链接](https://code.visualstudio.com/)\
 [VSCode中文帮助文档](https://vscode.js.cn/docs)
 VScode也能用于打开多种类型的文件，包括常见的生物信息学文件类型，是一款轻量级但功能强大的文字处理工具。
 
@@ -113,18 +113,18 @@ Markdown 源码 → 解析器 → HTML 输出 → 浏览器渲染
 
 教程的内容很丰富，也许你记不住这么多内容，但是别担心，会最简单的标题，代码块，图片插入，链接插入等就可以放心使用了。在遇到一些特定场景，比如渲染高级的数学公式的时候，再哪里不会点哪里就行。
 
-### LaTex
+### LaTeX
 LaTeX是一种“非所见即所得”的排版系统，用户需要输入特定的代码，保存在后缀为.tex的文件中，通过编译得到所需的pdf文件.
 
 做个简单的对比：Word的界面就是一张纸，输入的时候是什么样子，最后呈现出来就是什么样子。这给了我们极高的自由度，也非常容易上手，但是有如下问题：对于对细节不敏感的用户，Word的排版常常会在细节存在问题，比如两段话之间行间距不同、字体不同、标题样式不同等；而且在论文撰写的过程中，word需要借助插件来完成诸如文献引用，公式插入等功能。相比之下，使用LaTeX进行排版，就像是在铺好的轨道上驾驶火车一样。使用LaTeX没有办法像Word一样非常自由，但是功能齐全且可以保证规范性，这使得LaTeX非常适合用于论文的排版。
 
-Latex具有海量的模板库，很多时候并不需要完全从零开始书写；许多大学也会提供学术会议海报LaTeX模板，正式信件的LaTeX模板，毕业论文LaTeX模板等支持。
+LaTeX具有海量的模板库，很多时候并不需要完全从零开始书写；许多大学也会提供学术会议海报LaTeX模板，正式信件的LaTeX模板，毕业论文LaTeX模板等支持。
 
-不过Latex学习曲线比较陡峭，但是学会后可以做出更加美观的论文、海报、简历等。Berkeley计算机系教授Christos Papadimitriou曾说过一句半开玩笑的话：
+不过LaTeX学习曲线比较陡峭，但是学会后可以做出更加美观的论文、海报、简历等。Berkeley计算机系教授Christos Papadimitriou曾说过一句半开玩笑的话：
 
 Every time I read a LaTeX document, I think, wow, this must be correct!
 
-LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑使用[Overleaf](https://www.overleaf.com/)这个在线LaTeX编辑网站。站内不仅有各种各样的LaTeX模版供你选择，还免去了环境配置的难题。但是如果Latex使用频率较高，可能需要付费才能满足使用需求，这个时候可以考虑用其他的工具，比如xxx
+LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑使用[Overleaf](https://www.overleaf.com/)这个在线LaTeX编辑网站。站内不仅有各种各样的LaTeX模版供你选择，还免去了环境配置的难题。但是如果LaTeX使用频率较高，可能需要付费才能满足使用需求，这个时候可以考虑用其他的工具，比如xxx
 
 [一份其实很短的LaTeX入门文档](https://liam.page/2014/09/08/latex-introduction/)
 
@@ -135,21 +135,17 @@ LaTeX的环境配置是个比较头疼的问题。最开始的时候可以考虑
 [什么是Notion及Notion快速入门指南](https://www.bilibili.com/video/BV1YT4y1Q7xx/?spm_id_from=333.337.search-card.all.click&vd_source=25fa2c7552988fb2d3d6b74b9ba5eaca)
 [Notion官方帮助文档](https://www.notion.com/zh-cn/help)
 
-安装[notion](https://www.notion.com/)
+安装[Notion](https://www.notion.com/)
 
-我们甚至能够用notion制作一份个人学术网站：[为什么科研工作者需要个人网站？以及，怎样花很少时间做一个？](https://mp.weixin.qq.com/s/snYbVFAP7ERhNvaFDORrXw)
+我们甚至能够用Notion制作一份个人学术网站：[为什么科研工作者需要个人网站？以及，怎样花很少时间做一个？](https://mp.weixin.qq.com/s/snYbVFAP7ERhNvaFDORrXw)，相信大家或多或少有着排版公众号的经验，想象这个工作流程：拖动一些元素进行大概的布置，在文字框内写上相关内容。但是如果现在你用相似的方式就能轻松制作一个美观的个人网站，不需要任何计算机编程基础，还能开源到互联网中，这是不是一件非常酷的事情呢。至于更加专业的个人网站搭建请看后续HTML语言部分。
 
-
-相信大家或多或少有着排版公众号的经验，想象这个工作流程：拖动一些元素进行大概的布置，在文字框内写上相关内容。但是如果现在你用相似的方式就能轻松制作一个美观的个人网站，不需要任何计算机编程基础，还能开源到互联网中，这是不是一件非常酷的事情呢。
 ### 文献管理———Notero
 Notero是一款用于将项目和笔记同步到 Notion 的 Zotero 插件。通过它，我们可以**动态**地管理文档。我们可以使用 Zotero 添加文档和其他功能。添加的文档会自动将一些信息（例如摘要和作者信息）同步到注释页面。在注释页面中，您可以对文档进行笔记，为文档添加不同的类别，总结所使用的方法，并概括文档中的观点。欢迎使用以任何喜欢的方式进行扩展！
 
 Notero的安装：
-- 步骤 1：安装[notion](https://www.notion.com/)
-
-- 步骤 2：安装[notero](https://github.com/dvanoni/notero?tab=readme-ov-file#installation-and-setup)
-
-- 步骤 3：个性化生成自己的文献管理空间吧！
+- 步骤1：安装[Notion](https://www.notion.com/)
+- 步骤2：安装[Notero](https://github.com/dvanoni/notero?tab=readme-ov-file#installation-and-setup)
+- 步骤3：个性化生成自己的文献管理空间吧！
 
 ## 其他工具
 ### 数据备份
@@ -202,7 +198,7 @@ https://wiki.python.org/moin/BeginnersGuide/Programmers
 想要入门Linux，可以查看：\
 [Linux入门教程](https://biobooks.readthedocs.io/zh-cn/latest/4-linux/index.html)（文档内容不仅是Linux，也是一份很好的生物信息学入门资料）\
 [Terminus](https://www.mprat.org/Terminus/),是一款基于文本的冒险游戏，旨在用游戏化的方式教用户如何使用终端命令，是初学者探索Linux的良好开端\
-一份由中科大编写的[Linux拓展教程]([https://www.runoob.com/linux/linux-tutorial.html](https://101.lug.ustc.edu.cn/)),供希望对Linux有更深入了解的读者学习。
+一份由中科大编写的[Linux拓展教程](https://101.lug.ustc.edu.cn/),供希望对Linux有更深入了解的读者学习。
 ### conda
 
 ### Vim
@@ -316,9 +312,8 @@ $M_{i,j}$ 是每个匹配或错配的得分之和（来自相应的核苷酸或�
 
 4. 评估\
 在扩展过程中，BLAST会使用E-value（期望值）来评估匹配的显著性。E-value越小，表示匹配越有可能是一个真实的相似性，而非随机事件。
-$$
-   E=K*m*n*e^{-\lambda*S}
-$$
+$(E=K*m*n*e^{-\lambda\*S})$
+
 其中 m 为查询的有效长度，n 为数据库的有效长度。
 
 ### Blast的分类
@@ -340,7 +335,7 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 ## 软件工程
 ## sbatch
 ## 统计学进阶
-**整理思路来自于Wageningen University&Research Advanced Statistics课程**
+**整理思路来自于Wageningen University&Research Advanced Statistics课程**,Course code[MAT20306]
 ### 前置知识
 - 有关统计学的一般概念，例如数据收集、变量类型、什么是实验单位、响应变量等
 - 常见统计量的计算：均值、方差、协方差等
@@ -376,13 +371,6 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 
 
 ### 常见统计量
-
-
-
-
-
-
-
 
 
 
