@@ -259,6 +259,9 @@ DNA
 [Next-Generation Sequencing(NGS)](https://www.thermofisher.com/nl/en/home/life-science/sequencing/sequencing-learning-center/next-generation-sequencing-information/ngs-basics/what-is-next-generation-sequencing.html)简介
 更全面的二代测序技术[笔记](https://mercury-02.github.io/2024/02/21/%E6%B7%B1%E5%BA%A6%E6%B5%8B%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%AC%94%E8%AE%B0/#%E4%BA%8C%E3%80%81SoLiD%E6%B5%8B%E5%BA%8F)，包含了SoLiD测序技术和Roche454测序技术
 
+#### 三代测序
+Pacbio:https://www.pacb.com/technology/hifi-sequencing/how-it-works/
+
 #### 蛋白质测序
 #### 蛋白质结构
 ### 进化生物学
