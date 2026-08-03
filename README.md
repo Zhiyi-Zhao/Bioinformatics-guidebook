@@ -331,8 +331,12 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 
 
 ## 计算生物学
-[英文版计算生物学](https://github.com/Zhiyi-Zhao/Computational-biology),中文版正在路上
+- [英文版计算生物学](https://github.com/Zhiyi-Zhao/Computational-biology),中文版正在路上
+- [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/)
+
 ## R语言绘图
+
+
 ## 机器学习
 ## 深度学习
 ## 软件工程
@@ -383,7 +387,43 @@ Wikipedia上关于[BLAST](https://en.wikipedia.org/wiki/BLAST_(biotechnology))�
 
 
 ## 微生物生态
-对这个话题感兴趣的朋友可以转向...
+
+对这个话题感兴趣的朋友可选择性参考下列内容，部分信息受笔者认识所限，无法立刻填充。欢迎各方大佬围观 & 加入。
+
+### 扩增子测序
+
+- 扩增子（amplicon）：经人工扩增（PCR）得到的核酸片段
+- 常见形式：**16S（常见于细菌、古菌）**、18S（真核生物）、ITS（真菌）
+- 常用工具：
+  - 前处理（fastx -> OTU/ASV seqs/table & taxa）/全流程：USEARCH（v12 已开源）、VSEARCH、QIIME2（[最新文档](https://qiime2.org/)）、Muthor（挺古早的）、dada2（R based）
+  - 后处理：phyloseq、miaverse、microbiotaprocess、vegan（唯一指定真神）、microbiome
+  - 组间比较：LEfSe、ANCOM-BC、ALDEx2、MaAsLin3、STAMP
+  - 共发生网络：NetCoMi、ggClusterNet（v2）、MetaNet、SpiecEasi、SparCC、WGCNA
+  - 功能预测：PICRUST2、Tax4Fun、FAPROTAX、BugBase、FUNGuild
+  - 可视化：ggpicrust2、Gephi、Cytoscape、ggplot2、ggraph
+- 参考资料：
+  - [USEARCH12 使用测评](https://github.com/AldrichCPU-bio/microbes_scripts)
+  - [QIIME2 中文文档](https://github.com/YongxinLiu/QIIME2ChineseManual)
+  - [miaverse](https://microbiome.github.io)
+  - [微生物组差异分析方法测评](https://www.nature.com/articles/s41467-022-28034-z)
+  - [R语言应用多元统计](https://uw.pressbooks.pub/appliedmultivariatestatistics/)
+ 
+    
+### 宏基因组
+
+待补充
+
+### 宏转录组
+
+待补充
+
+### 宏蛋白组
+
+待补充
+
+### 其他
+
+（待确认）微生物表观遗传、基因表达调控...
 
 # 计算机进阶
 ## HMTL语言
